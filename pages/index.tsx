@@ -13,9 +13,9 @@ export default function Home() {
         <Image
           src="/images/hero.png"
           alt="Modern coastal home"
-          layout="fill"
-          objectFit="cover"
+          fill
           priority
+          style={{ objectFit: 'cover' }}
         />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-center p-4">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">

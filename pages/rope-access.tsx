@@ -9,7 +9,12 @@ export default function RopeAccessPage() {
       description="Harbourside Painters offers specialist rope access painting and maintenance for high-rise and difficult-to-reach structures."
     >
       <section className="relative w-full h-72 md:h-96">
-        <Image src="/images/rope.png" alt="Rope access painters" layout="fill" objectFit="cover" />
+        <Image
+          src="/images/rope.png"
+          alt="Rope access painters"
+          fill
+          style={{ objectFit: 'cover' }}
+        />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white">Rope Access</h1>
         </div>

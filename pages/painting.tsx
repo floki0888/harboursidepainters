@@ -9,7 +9,12 @@ export default function PaintingPage() {
       description="Harbourside Painters provides high-end residential and commercial painting services across Sydney’s Northern Beaches, Newcastle and Wollongong."
     >
       <section className="relative w-full h-72 md:h-96">
-        <Image src="/images/interior.png" alt="Interior painting" layout="fill" objectFit="cover" />
+        <Image
+          src="/images/interior.png"
+          alt="Interior painting"
+          fill
+          style={{ objectFit: 'cover' }}
+        />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white">Painting Services</h1>
         </div>

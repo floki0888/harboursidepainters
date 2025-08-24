@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -35,7 +37,7 @@ const Header: React.FC = () => {
           </svg>
         </button>
         <nav
-          className={`$${'{'}open ? 'block' : 'hidden'${'}'} absolute md:static top-full left-0 w-full md:w-auto bg-white md:bg-transparent md:flex md:items-center md:space-x-6 mt-2 md:mt-0 border-t md:border-none`}
+          className={`${open ? 'block' : 'hidden'} absolute md:static top-full left-0 w-full md:w-auto bg-white md:bg-transparent md:flex md:items-center md:space-x-6 mt-2 md:mt-0 border-t md:border-none`}
         >
           <Link href="/">
             <a className="block px-4 py-2 text-primary hover:text-secondary">Home</a>
